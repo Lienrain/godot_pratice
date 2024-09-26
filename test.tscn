@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://sqqd810sgyl2"]
+
+[ext_resource type="PackedScene" uid="uid://cco282t4tkje4" path="res://玩家/player.tscn" id="1_d3log"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_di5dc"]
+size = Vector2(55.633, 20)
+
+[node name="Node" type="Node"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+collision_layer = 255
+collision_mask = 255
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(587, 518)
+rotation = 3.14159
+scale = Vector2(16.6449, 3.90123)
+shape = SubResource("RectangleShape2D_di5dc")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(554, 214)
+scale = Vector2(2.26112, 4.95443)
+shape = SubResource("RectangleShape2D_di5dc")
+
+[node name="Player" parent="." instance=ExtResource("1_d3log")]
+position = Vector2(321, 456)

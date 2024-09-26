@@ -1,0 +1,64 @@
+[gd_scene load_steps=11 format=3 uid="uid://702sat0deof1"]
+
+[ext_resource type="Script" path="res://弓箭手/弓箭.gd" id="1_6cifi"]
+[ext_resource type="Texture2D" uid="uid://c13ggiqlngjjh" path="res://资源/ranger/projectiles_and_effects/arrow/arrow_.png" id="1_tsa84"]
+[ext_resource type="Texture2D" uid="uid://bu7a5yce8dyuk" path="res://资源/ranger/projectiles_and_effects/arrow_hit/arrow_hit_1.png" id="2_u0yny"]
+[ext_resource type="Texture2D" uid="uid://hgpf1vfa0gxg" path="res://资源/ranger/projectiles_and_effects/arrow_hit/arrow_hit_2.png" id="3_lpxnk"]
+[ext_resource type="Texture2D" uid="uid://y0h2vyqo4cle" path="res://资源/ranger/projectiles_and_effects/arrow_hit/arrow_hit_3.png" id="4_l5el8"]
+[ext_resource type="Texture2D" uid="uid://c5tawnqydadnk" path="res://资源/ranger/projectiles_and_effects/arrow_hit/arrow_hit_4.png" id="5_dm1x6"]
+[ext_resource type="Texture2D" uid="uid://0klfyr6f2cu7" path="res://资源/ranger/projectiles_and_effects/arrow_hit/arrow_hit_5.png" id="6_7ktv5"]
+[ext_resource type="Texture2D" uid="uid://u7lrhvug8ycg" path="res://资源/ranger/projectiles_and_effects/arrow_hit/arrow_hit_6.png" id="7_hv6sp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1i2gs"]
+size = Vector2(12, 3)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ttmmi"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_u0yny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_lpxnk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_l5el8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_dm1x6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_7ktv5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_hv6sp")
+}],
+"loop": false,
+"name": &"弓箭击中",
+"speed": 10.0
+}]
+
+[node name="Area2D" type="Area2D"]
+position = Vector2(199, 322)
+script = ExtResource("1_6cifi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(11, -1)
+shape = SubResource("RectangleShape2D_1i2gs")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_tsa84")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+visible = false
+sprite_frames = SubResource("SpriteFrames_ttmmi")
+animation = &"弓箭击中"
+frame = 5
+frame_progress = 1.0
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]

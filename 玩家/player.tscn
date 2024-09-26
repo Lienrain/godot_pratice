@@ -1,0 +1,309 @@
+[gd_scene load_steps=56 format=3 uid="uid://cco282t4tkje4"]
+
+[ext_resource type="Texture2D" uid="uid://c3ryguj030tb6" path="res://Individual Sprites/adventurer-hurt-00.png" id="1_r6nx0"]
+[ext_resource type="Texture2D" uid="uid://hm6fcscn8c5k" path="res://Individual Sprites/adventurer-hurt-01.png" id="2_3a3nv"]
+[ext_resource type="Texture2D" uid="uid://cubup2qjiosy2" path="res://Individual Sprites/adventurer-hurt-02.png" id="3_n48kp"]
+[ext_resource type="Texture2D" uid="uid://80wib8f0f8a7" path="res://Individual Sprites/adventurer-run-00.png" id="4_mx3wc"]
+[ext_resource type="Texture2D" uid="uid://b7yli3mu75k2g" path="res://Individual Sprites/adventurer-run-01.png" id="5_tkhnp"]
+[ext_resource type="Texture2D" uid="uid://ctoqligutgxpi" path="res://Individual Sprites/adventurer-run-02.png" id="6_mbeee"]
+[ext_resource type="Texture2D" uid="uid://f1csqy064cxm" path="res://Individual Sprites/adventurer-run-03.png" id="7_uidsw"]
+[ext_resource type="Texture2D" uid="uid://b2bv7s1qnpcmc" path="res://Individual Sprites/adventurer-run-04.png" id="8_2bh6h"]
+[ext_resource type="Texture2D" uid="uid://rurieovvo7q7" path="res://Individual Sprites/adventurer-run-05.png" id="9_mn4cx"]
+[ext_resource type="Texture2D" uid="uid://8btpl76kq1bq" path="res://Individual Sprites/adventurer-idle-2-00.png" id="10_1vqko"]
+[ext_resource type="Texture2D" uid="uid://bn7wak7u5ilbs" path="res://Individual Sprites/adventurer-idle-2-01.png" id="11_s84f5"]
+[ext_resource type="Texture2D" uid="uid://bk65wag8016vl" path="res://Individual Sprites/adventurer-idle-2-02.png" id="12_jcl70"]
+[ext_resource type="Texture2D" uid="uid://blebvfaho3og1" path="res://Individual Sprites/adventurer-idle-2-03.png" id="13_hclxw"]
+[ext_resource type="Texture2D" uid="uid://csat8vbgyfuij" path="res://Individual Sprites/adventurer-attack1-00.png" id="14_i0cej"]
+[ext_resource type="Texture2D" uid="uid://cgnogj2k8jdvv" path="res://Individual Sprites/adventurer-attack1-01.png" id="15_o6t3s"]
+[ext_resource type="Texture2D" uid="uid://doxkt4rqtbbsy" path="res://Individual Sprites/adventurer-attack1-02.png" id="16_rbljn"]
+[ext_resource type="Texture2D" uid="uid://b33nlxuiejiv2" path="res://Individual Sprites/adventurer-attack1-03.png" id="17_qwaek"]
+[ext_resource type="Texture2D" uid="uid://dk1uwgjxwar0v" path="res://Individual Sprites/adventurer-attack1-04.png" id="18_3pk1y"]
+[ext_resource type="Texture2D" uid="uid://x2u2ox1rpnr6" path="res://Individual Sprites/adventurer-attack2-00.png" id="19_4vkf2"]
+[ext_resource type="Texture2D" uid="uid://bkf6l0bir1iy8" path="res://Individual Sprites/adventurer-attack2-01.png" id="20_eqc6b"]
+[ext_resource type="Texture2D" uid="uid://sj3jds4ro3df" path="res://Individual Sprites/adventurer-attack2-02.png" id="21_q6j6e"]
+[ext_resource type="Texture2D" uid="uid://d0xqjqvjcroub" path="res://Individual Sprites/adventurer-attack2-03.png" id="22_70m56"]
+[ext_resource type="Texture2D" uid="uid://du14lmxd8pkkb" path="res://Individual Sprites/adventurer-attack2-04.png" id="23_g187t"]
+[ext_resource type="Texture2D" uid="uid://c8tjvantcbbxk" path="res://Individual Sprites/adventurer-attack2-05.png" id="24_oy45p"]
+[ext_resource type="Texture2D" uid="uid://bkkgr2eoy0exc" path="res://Individual Sprites/adventurer-attack3-00.png" id="25_o61b0"]
+[ext_resource type="Texture2D" uid="uid://dhd0i7hbkj53h" path="res://Individual Sprites/adventurer-attack3-01.png" id="26_u1ek3"]
+[ext_resource type="Texture2D" uid="uid://db83oq3n6dh1x" path="res://Individual Sprites/adventurer-attack3-02.png" id="27_7gtuv"]
+[ext_resource type="Texture2D" uid="uid://dry20wl4kyl7r" path="res://Individual Sprites/adventurer-attack3-03.png" id="28_8h7wt"]
+[ext_resource type="Texture2D" uid="uid://cxmy3hr4dwgoc" path="res://Individual Sprites/adventurer-attack3-04.png" id="29_jqf1s"]
+[ext_resource type="Texture2D" uid="uid://dsq4e0d65p4q" path="res://Individual Sprites/adventurer-attack3-05.png" id="30_aq7y0"]
+[ext_resource type="Texture2D" uid="uid://cgg5b2afo0ph0" path="res://Individual Sprites/adventurer-die-00.png" id="31_stnft"]
+[ext_resource type="Texture2D" uid="uid://8saesvumd8r5" path="res://Individual Sprites/adventurer-die-01.png" id="32_pdsnb"]
+[ext_resource type="Texture2D" uid="uid://bjqvvo4nchn54" path="res://Individual Sprites/adventurer-die-02.png" id="33_lhyd3"]
+[ext_resource type="Texture2D" uid="uid://crgpbivux80gr" path="res://Individual Sprites/adventurer-die-03.png" id="34_qm2yd"]
+[ext_resource type="Texture2D" uid="uid://3th2aina12vj" path="res://Individual Sprites/adventurer-die-04.png" id="35_3sya2"]
+[ext_resource type="Texture2D" uid="uid://d2vkqkr8b0weo" path="res://Individual Sprites/adventurer-die-05.png" id="36_4y7ej"]
+[ext_resource type="Texture2D" uid="uid://cn3irjrwnfum" path="res://Individual Sprites/adventurer-die-06.png" id="37_ifuxw"]
+[ext_resource type="Texture2D" uid="uid://bpumdo88wlidh" path="res://Individual Sprites/adventurer-jump-00.png" id="38_474k1"]
+[ext_resource type="Texture2D" uid="uid://dy8itqirpvxki" path="res://Individual Sprites/adventurer-jump-01.png" id="39_41fwn"]
+[ext_resource type="Texture2D" uid="uid://b2j2qsxaah5" path="res://Individual Sprites/adventurer-jump-02.png" id="40_ut1f5"]
+[ext_resource type="Texture2D" uid="uid://dearik3ltn254" path="res://Individual Sprites/adventurer-jump-03.png" id="41_1ay2q"]
+[ext_resource type="Texture2D" uid="uid://ce1cvveicyxjc" path="res://Individual Sprites/adventurer-idle-00.png" id="42_sdwak"]
+[ext_resource type="Texture2D" uid="uid://bvv5di7o70dmp" path="res://Individual Sprites/adventurer-idle-01.png" id="43_l0vdy"]
+[ext_resource type="Texture2D" uid="uid://cx6hmldec5iei" path="res://Individual Sprites/adventurer-idle-02.png" id="44_mvroh"]
+[ext_resource type="Texture2D" uid="uid://cj2a1lk6g54nf" path="res://Individual Sprites/adventurer-idle-03.png" id="45_7ygmf"]
+[ext_resource type="Texture2D" uid="uid://ewj1dujgl0c4" path="res://Individual Sprites/adventurer-fall-00.png" id="46_pbfrh"]
+[ext_resource type="Texture2D" uid="uid://b7odvljg5gefc" path="res://Individual Sprites/adventurer-fall-01.png" id="47_avylv"]
+[ext_resource type="Script" path="res://近战战士/状态机/状态管理器.gd" id="48_hcil7"]
+[ext_resource type="Script" path="res://玩家/状态机/玩家闲置状态.gd" id="49_enjw3"]
+[ext_resource type="Script" path="res://玩家/状态机/玩家下落.gd" id="50_nfn68"]
+[ext_resource type="Script" path="res://玩家/状态机/玩家奔跑.gd" id="51_r73ih"]
+[ext_resource type="Script" path="res://玩家/状态机/玩家跳跃.gd" id="52_dukeu"]
+[ext_resource type="Script" path="res://玩家/状态机/玩家攻击状态.gd" id="53_pktch"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5stfo"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_r6nx0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_3a3nv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_n48kp")
+}],
+"loop": false,
+"name": &"受击",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_mx3wc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_tkhnp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_mbeee")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_uidsw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_2bh6h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_mn4cx")
+}],
+"loop": true,
+"name": &"奔跑",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_1vqko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_s84f5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_jcl70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_hclxw")
+}],
+"loop": true,
+"name": &"战斗闲置",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_i0cej")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_o6t3s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_rbljn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_qwaek")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_3pk1y")
+}],
+"loop": false,
+"name": &"攻击1",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_4vkf2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_eqc6b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_q6j6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_70m56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_g187t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_oy45p")
+}],
+"loop": false,
+"name": &"攻击2",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25_o61b0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_u1ek3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_7gtuv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_8h7wt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_jqf1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_aq7y0")
+}],
+"loop": false,
+"name": &"攻击3",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("31_stnft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_pdsnb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_lhyd3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_qm2yd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_3sya2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_4y7ej")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_ifuxw")
+}],
+"loop": false,
+"name": &"死亡",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("38_474k1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_41fwn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_ut1f5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_1ay2q")
+}],
+"loop": false,
+"name": &"跳起",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("42_sdwak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_l0vdy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_mvroh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_7ygmf")
+}],
+"loop": true,
+"name": &"闲置",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("46_pbfrh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_avylv")
+}],
+"loop": true,
+"name": &"降落",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_16764"]
+size = Vector2(13, 26)
+
+[node name="Player" type="CharacterBody2D"]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_5stfo")
+animation = &"闲置"
+frame_progress = 0.929308
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(0.5, 3)
+shape = SubResource("RectangleShape2D_16764")
+
+[node name="FSM" type="Node" parent="."]
+script = ExtResource("48_hcil7")
+
+[node name="idle" type="Node" parent="FSM"]
+script = ExtResource("49_enjw3")
+
+[node name="falling" type="Node" parent="FSM"]
+script = ExtResource("50_nfn68")
+
+[node name="run" type="Node" parent="FSM"]
+script = ExtResource("51_r73ih")
+
+[node name="jump" type="Node" parent="FSM"]
+script = ExtResource("52_dukeu")
+
+[node name="attack" type="Node" parent="FSM"]
+script = ExtResource("53_pktch")
+
+[node name="attack_check" type="Node2D" parent="."]
+
+[node name="a1" type="Area2D" parent="attack_check"]
+visible = false
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="attack_check/a1"]
+polygon = PackedVector2Array(-8, -11, -2, -16, 5, -18, 15, -18, 21, -13, 25, -4, 23, 5, 17, 12, 9, 14, 1, 12, 10, 7, 12, -2, 8, -10, 0, -10)
+
+[node name="a2" type="Area2D" parent="attack_check"]
+visible = false
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="attack_check/a2"]
+polygon = PackedVector2Array(4, -11, 14, -11, 21, -5, 22, 5, 18, 14, 11, 17, 0, 18, -20, 12, -23, 11, -11, 5, -8, 11, 3, 12, 12, 7, 13, 0)
+
+[node name="a3" type="Area2D" parent="attack_check"]
+visible = false
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="attack_check/a3"]
+polygon = PackedVector2Array(-4, -5, 14, -1, 26, 4, 25, 9, 17, 14, -1, 16, -14, 16, -23, 10, -15, 4, -11, 11, 3, 11, 15, 7, 15, 3)

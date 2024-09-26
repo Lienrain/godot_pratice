@@ -1,0 +1,328 @@
+[gd_scene load_steps=66 format=3 uid="uid://cbmsm66ejgw6v"]
+
+[ext_resource type="Script" path="res://弓箭手/ranger.gd" id="1_nisn6"]
+[ext_resource type="Texture2D" uid="uid://c23bl80ddkbpl" path="res://资源/ranger/take_hit/take_hit_1.png" id="2_l2sug"]
+[ext_resource type="Texture2D" uid="uid://fta0syh67ui6" path="res://资源/ranger/take_hit/take_hit_2.png" id="3_hcl2f"]
+[ext_resource type="Texture2D" uid="uid://btmm1p6d1sdrq" path="res://资源/ranger/take_hit/take_hit_3.png" id="4_dwyxh"]
+[ext_resource type="Texture2D" uid="uid://bxl5ox0uansws" path="res://资源/ranger/take_hit/take_hit_4.png" id="5_owel5"]
+[ext_resource type="Texture2D" uid="uid://osbanhh05a02" path="res://资源/ranger/take_hit/take_hit_5.png" id="6_6on1i"]
+[ext_resource type="Texture2D" uid="uid://cfmxxka03gm1" path="res://资源/ranger/take_hit/take_hit_6.png" id="7_82f4q"]
+[ext_resource type="Texture2D" uid="uid://bflxdf6p28q6k" path="res://资源/ranger/run/run_1.png" id="8_ovw6q"]
+[ext_resource type="Texture2D" uid="uid://r613y2vfdhru" path="res://资源/ranger/run/run_2.png" id="9_gcbla"]
+[ext_resource type="Texture2D" uid="uid://db2pd1nijvvnd" path="res://资源/ranger/run/run_3.png" id="10_pg01l"]
+[ext_resource type="Texture2D" uid="uid://pwfnu388krl8" path="res://资源/ranger/run/run_4.png" id="11_vxo43"]
+[ext_resource type="Texture2D" uid="uid://com3v0r6g0f14" path="res://资源/ranger/run/run_5.png" id="12_qi2q0"]
+[ext_resource type="Texture2D" uid="uid://b12pxl1u72jpf" path="res://资源/ranger/run/run_6.png" id="13_wil7v"]
+[ext_resource type="Texture2D" uid="uid://cu3i8egjf68er" path="res://资源/ranger/run/run_7.png" id="14_higsy"]
+[ext_resource type="Texture2D" uid="uid://ci6r4lr4pp20w" path="res://资源/ranger/run/run_8.png" id="15_bxnic"]
+[ext_resource type="Texture2D" uid="uid://6yj67up6rma5" path="res://资源/ranger/run/run_9.png" id="16_54asn"]
+[ext_resource type="Texture2D" uid="uid://ctar5n4dtcpd5" path="res://资源/ranger/run/run_10.png" id="17_w16my"]
+[ext_resource type="Texture2D" uid="uid://b1mtvat1clsmw" path="res://资源/ranger/idle/idle_1.png" id="18_2i5r8"]
+[ext_resource type="Texture2D" uid="uid://0ujqr28a21cg" path="res://资源/ranger/2_atk/2_atk_1.png" id="18_r7g08"]
+[ext_resource type="Texture2D" uid="uid://dnvh134jw3mae" path="res://资源/ranger/2_atk/2_atk_2.png" id="19_hwxxv"]
+[ext_resource type="Texture2D" uid="uid://4nfqlk2al4nc" path="res://资源/ranger/idle/idle_2.png" id="19_q3ycr"]
+[ext_resource type="Texture2D" uid="uid://btcgawdong5bc" path="res://资源/ranger/2_atk/2_atk_3.png" id="20_lwsru"]
+[ext_resource type="Texture2D" uid="uid://y7bfah5cxiso" path="res://资源/ranger/idle/idle_3.png" id="20_tivxc"]
+[ext_resource type="Texture2D" uid="uid://dajfdgvqtrdji" path="res://资源/ranger/2_atk/2_atk_4.png" id="21_4dcnt"]
+[ext_resource type="Texture2D" uid="uid://cicjegyrt6mns" path="res://资源/ranger/idle/idle_4.png" id="21_m07qd"]
+[ext_resource type="Texture2D" uid="uid://c1c81vom8ch5a" path="res://资源/ranger/2_atk/2_atk_5.png" id="22_3y6y6"]
+[ext_resource type="Texture2D" uid="uid://be6gguwcksr2i" path="res://资源/ranger/idle/idle_5.png" id="22_5lr3i"]
+[ext_resource type="Texture2D" uid="uid://bmsa8gjc8ncij" path="res://资源/ranger/idle/idle_6.png" id="23_o41ud"]
+[ext_resource type="Texture2D" uid="uid://biwjdcwhot8eo" path="res://资源/ranger/2_atk/2_atk_6.png" id="23_uo6jb"]
+[ext_resource type="Texture2D" uid="uid://dck0aarh33pcw" path="res://资源/ranger/idle/idle_7.png" id="24_dscb0"]
+[ext_resource type="Texture2D" uid="uid://b6j5ifhj63p5f" path="res://资源/ranger/2_atk/2_atk_7.png" id="24_yg3qf"]
+[ext_resource type="Texture2D" uid="uid://b55idc86kta7r" path="res://资源/ranger/idle/idle_8.png" id="25_7e67k"]
+[ext_resource type="Texture2D" uid="uid://dxc51b3dsoprw" path="res://资源/ranger/2_atk/2_atk_8.png" id="25_r3hdl"]
+[ext_resource type="Texture2D" uid="uid://d1r23d71t3rpd" path="res://资源/ranger/2_atk/2_atk_9.png" id="26_0w45h"]
+[ext_resource type="Texture2D" uid="uid://gehhkl26y2oi" path="res://资源/ranger/idle/idle_9.png" id="26_u42j3"]
+[ext_resource type="Texture2D" uid="uid://epi6xqnkolhc" path="res://资源/ranger/2_atk/2_atk_10.png" id="27_55kpk"]
+[ext_resource type="Texture2D" uid="uid://cy1h54uisrdx3" path="res://资源/ranger/idle/idle_10.png" id="27_mjxsa"]
+[ext_resource type="Texture2D" uid="uid://1crjbn1g34mh" path="res://资源/ranger/idle/idle_11.png" id="28_k3xa8"]
+[ext_resource type="Texture2D" uid="uid://bfwpp11qcphnx" path="res://资源/ranger/2_atk/2_atk_11.png" id="28_qrhj5"]
+[ext_resource type="Texture2D" uid="uid://k2ji5hc6ep04" path="res://资源/ranger/2_atk/2_atk_12.png" id="29_ybk7w"]
+[ext_resource type="Texture2D" uid="uid://4df1npua6g0q" path="res://资源/ranger/idle/idle_12.png" id="29_yevdf"]
+[ext_resource type="Texture2D" uid="uid://cgylhh88b3gjm" path="res://资源/ranger/2_atk/2_atk_13.png" id="30_ski2l"]
+[ext_resource type="Texture2D" uid="uid://cfdlomto2h4sa" path="res://资源/ranger/2_atk/2_atk_14.png" id="31_li7xr"]
+[ext_resource type="Texture2D" uid="uid://w5ulbfhtn1e" path="res://资源/ranger/2_atk/2_atk_15.png" id="32_257ur"]
+[ext_resource type="Texture2D" uid="uid://dkbnqphalum0b" path="res://资源/ranger/death/death_1.png" id="33_q4k77"]
+[ext_resource type="Texture2D" uid="uid://bohods34md1r" path="res://资源/ranger/death/death_2.png" id="34_eewoa"]
+[ext_resource type="Texture2D" uid="uid://bnsjjcedlsr8y" path="res://资源/ranger/death/death_3.png" id="35_b6rid"]
+[ext_resource type="Texture2D" uid="uid://drrbpsgx83l52" path="res://资源/ranger/death/death_4.png" id="36_qgp6f"]
+[ext_resource type="Texture2D" uid="uid://ci6ip3gtc4w8t" path="res://资源/ranger/death/death_5.png" id="37_v7kao"]
+[ext_resource type="Texture2D" uid="uid://bob0djlnko6i1" path="res://资源/ranger/death/death_6.png" id="38_rptq3"]
+[ext_resource type="Texture2D" uid="uid://d0onp4mwc64ms" path="res://资源/ranger/death/death_7.png" id="39_ujs7j"]
+[ext_resource type="Texture2D" uid="uid://dsu8t6fyotyha" path="res://资源/ranger/death/death_8.png" id="40_oxtp8"]
+[ext_resource type="Texture2D" uid="uid://ddeqrwpkrai6d" path="res://资源/ranger/death/death_9.png" id="41_vicl3"]
+[ext_resource type="Texture2D" uid="uid://cqvfohq64adtn" path="res://资源/ranger/death/death_10.png" id="42_lhm2s"]
+[ext_resource type="Texture2D" uid="uid://d2kndqcd67hk" path="res://资源/ranger/death/death_11.png" id="43_l4nhk"]
+[ext_resource type="Texture2D" uid="uid://jome37e0l1dh" path="res://资源/ranger/death/death_12.png" id="44_pdx5s"]
+[ext_resource type="Texture2D" uid="uid://i8csukef6am0" path="res://资源/ranger/death/death_13.png" id="45_ol6we"]
+[ext_resource type="Texture2D" uid="uid://db6bsdc0d7aou" path="res://资源/ranger/death/death_14.png" id="46_dtyrs"]
+[ext_resource type="Texture2D" uid="uid://dxc0fa1ag60uv" path="res://资源/ranger/death/death_15.png" id="47_5a6ep"]
+[ext_resource type="Texture2D" uid="uid://dbqdpn8vaii16" path="res://资源/ranger/death/death_16.png" id="48_8gb4o"]
+[ext_resource type="Texture2D" uid="uid://c3q0idptsgo1c" path="res://资源/ranger/death/death_17.png" id="49_o0k0o"]
+[ext_resource type="Texture2D" uid="uid://bjcpnc7kc7btw" path="res://资源/ranger/death/death_18.png" id="50_nj85f"]
+[ext_resource type="Texture2D" uid="uid://cp454wkny62j4" path="res://资源/ranger/death/death_19.png" id="51_iictd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6gbnm"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cxltp"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_l2sug")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_hcl2f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_dwyxh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_owel5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_6on1i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_82f4q")
+}],
+"loop": false,
+"name": &"受击",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_ovw6q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_gcbla")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_pg01l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_vxo43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_qi2q0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_wil7v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_higsy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_bxnic")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_54asn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_w16my")
+}],
+"loop": true,
+"name": &"奔跑",
+"speed": 10.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"巡逻",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_2i5r8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_q3ycr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_tivxc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_m07qd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_5lr3i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_o41ud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_dscb0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_7e67k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_u42j3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_mjxsa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_k3xa8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_yevdf")
+}],
+"loop": true,
+"name": &"待机",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_r7g08")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_hwxxv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_lwsru")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_4dcnt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_3y6y6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_uo6jb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_yg3qf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_r3hdl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_0w45h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_55kpk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_qrhj5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_ybk7w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_ski2l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_li7xr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_257ur")
+}],
+"loop": false,
+"name": &"攻击",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("33_q4k77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_eewoa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_b6rid")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_qgp6f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_v7kao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_rptq3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_ujs7j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_oxtp8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_vicl3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_lhm2s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_l4nhk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_pdx5s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_ol6we")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_dtyrs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_5a6ep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_8gb4o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_o0k0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_nj85f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_iictd")
+}],
+"loop": false,
+"name": &"死亡",
+"speed": 10.0
+}]
+
+[node name="ranger" type="CharacterBody2D"]
+collision_layer = 255
+collision_mask = 255
+script = ExtResource("1_nisn6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(0.754135, 2.07033)
+shape = SubResource("RectangleShape2D_6gbnm")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_cxltp")
+animation = &"死亡"
+offset = Vector2(0, -40)
+
+[node name="right" type="RayCast2D" parent="."]
+position = Vector2(20, 0)
+
+[node name="left" type="RayCast2D" parent="."]
+position = Vector2(-20, 0)
+
+[node name="右弓箭" type="Node2D" parent="."]
+position = Vector2(33, -10)
+
+[node name="左弓箭" type="Node2D" parent="."]
+position = Vector2(-33, -10)
+
+[node name="右攻击检测" type="RayCast2D" parent="."]
+position = Vector2(0, -10)
+target_position = Vector2(300, 0)
+
+[node name="左攻击检测" type="RayCast2D" parent="."]
+position = Vector2(0, -10)
+target_position = Vector2(-300, 0)
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="frame_changed" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_frame_changed"]
