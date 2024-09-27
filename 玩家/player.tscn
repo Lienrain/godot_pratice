@@ -1,4 +1,4 @@
-[gd_scene load_steps=56 format=3 uid="uid://cco282t4tkje4"]
+[gd_scene load_steps=73 format=3 uid="uid://cco282t4tkje4"]
 
 [ext_resource type="Texture2D" uid="uid://c3ryguj030tb6" path="res://Individual Sprites/adventurer-hurt-00.png" id="1_r6nx0"]
 [ext_resource type="Texture2D" uid="uid://hm6fcscn8c5k" path="res://Individual Sprites/adventurer-hurt-01.png" id="2_3a3nv"]
@@ -38,21 +38,38 @@
 [ext_resource type="Texture2D" uid="uid://d2vkqkr8b0weo" path="res://Individual Sprites/adventurer-die-05.png" id="36_4y7ej"]
 [ext_resource type="Texture2D" uid="uid://cn3irjrwnfum" path="res://Individual Sprites/adventurer-die-06.png" id="37_ifuxw"]
 [ext_resource type="Texture2D" uid="uid://bpumdo88wlidh" path="res://Individual Sprites/adventurer-jump-00.png" id="38_474k1"]
+[ext_resource type="Texture2D" uid="uid://brs32ac8jx030" path="res://Individual Sprites/adventurer-slide-00.png" id="38_umvv3"]
 [ext_resource type="Texture2D" uid="uid://dy8itqirpvxki" path="res://Individual Sprites/adventurer-jump-01.png" id="39_41fwn"]
+[ext_resource type="Texture2D" uid="uid://5ikr5p7ubaa4" path="res://Individual Sprites/adventurer-slide-01.png" id="39_73riw"]
+[ext_resource type="Texture2D" uid="uid://b1g845cjnnq1i" path="res://Individual Sprites/adventurer-stand-00.png" id="40_e3h3h"]
 [ext_resource type="Texture2D" uid="uid://b2j2qsxaah5" path="res://Individual Sprites/adventurer-jump-02.png" id="40_ut1f5"]
 [ext_resource type="Texture2D" uid="uid://dearik3ltn254" path="res://Individual Sprites/adventurer-jump-03.png" id="41_1ay2q"]
+[ext_resource type="Texture2D" uid="uid://dyfr6x6dqblww" path="res://Individual Sprites/adventurer-stand-01.png" id="41_r631i"]
+[ext_resource type="Texture2D" uid="uid://6iqjqpovi3mx" path="res://Individual Sprites/adventurer-air-attack1-00.png" id="42_muu6k"]
 [ext_resource type="Texture2D" uid="uid://ce1cvveicyxjc" path="res://Individual Sprites/adventurer-idle-00.png" id="42_sdwak"]
+[ext_resource type="Texture2D" uid="uid://fabvybeeveiw" path="res://Individual Sprites/adventurer-air-attack1-01.png" id="43_6wc7x"]
 [ext_resource type="Texture2D" uid="uid://bvv5di7o70dmp" path="res://Individual Sprites/adventurer-idle-01.png" id="43_l0vdy"]
 [ext_resource type="Texture2D" uid="uid://cx6hmldec5iei" path="res://Individual Sprites/adventurer-idle-02.png" id="44_mvroh"]
+[ext_resource type="Texture2D" uid="uid://b6yh571vr484f" path="res://Individual Sprites/adventurer-air-attack1-02.png" id="44_oykd7"]
 [ext_resource type="Texture2D" uid="uid://cj2a1lk6g54nf" path="res://Individual Sprites/adventurer-idle-03.png" id="45_7ygmf"]
+[ext_resource type="Texture2D" uid="uid://gl0s4fdqpmp3" path="res://Individual Sprites/adventurer-air-attack1-03.png" id="45_12sxl"]
+[ext_resource type="Texture2D" uid="uid://cxwxw2eewubg7" path="res://Individual Sprites/adventurer-air-attack2-00.png" id="46_45tcc"]
 [ext_resource type="Texture2D" uid="uid://ewj1dujgl0c4" path="res://Individual Sprites/adventurer-fall-00.png" id="46_pbfrh"]
+[ext_resource type="Texture2D" uid="uid://7vdragjqi65m" path="res://Individual Sprites/adventurer-air-attack2-01.png" id="47_4q1hm"]
 [ext_resource type="Texture2D" uid="uid://b7odvljg5gefc" path="res://Individual Sprites/adventurer-fall-01.png" id="47_avylv"]
+[ext_resource type="Texture2D" uid="uid://cxee760l4xksa" path="res://Individual Sprites/adventurer-air-attack2-02.png" id="48_dwgtn"]
 [ext_resource type="Script" path="res://近战战士/状态机/状态管理器.gd" id="48_hcil7"]
 [ext_resource type="Script" path="res://玩家/状态机/玩家闲置状态.gd" id="49_enjw3"]
+[ext_resource type="Texture2D" uid="uid://cguypqbh65oo4" path="res://Individual Sprites/adventurer-air-attack3-loop-00.png" id="49_wbbk7"]
 [ext_resource type="Script" path="res://玩家/状态机/玩家下落.gd" id="50_nfn68"]
+[ext_resource type="Texture2D" uid="uid://ban5oom4nexh8" path="res://Individual Sprites/adventurer-air-attack3-loop-01.png" id="50_xhtcd"]
+[ext_resource type="Texture2D" uid="uid://dyfvvggtua7m0" path="res://Individual Sprites/adventurer-air-attack3-rdy-00.png" id="51_452oj"]
 [ext_resource type="Script" path="res://玩家/状态机/玩家奔跑.gd" id="51_r73ih"]
 [ext_resource type="Script" path="res://玩家/状态机/玩家跳跃.gd" id="52_dukeu"]
+[ext_resource type="Texture2D" uid="uid://cfu55w1utj1ls" path="res://Individual Sprites/adventurer-air-attack-3-end-00.png" id="52_m3xgi"]
+[ext_resource type="Texture2D" uid="uid://goj4txctag22" path="res://Individual Sprites/adventurer-air-attack-3-end-01.png" id="53_dwit1"]
 [ext_resource type="Script" path="res://玩家/状态机/玩家攻击状态.gd" id="53_pktch"]
+[ext_resource type="Texture2D" uid="uid://dtiqjwca32l8o" path="res://Individual Sprites/adventurer-air-attack-3-end-02.png" id="54_ebo57"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_5stfo"]
 animations = [{
@@ -209,6 +226,23 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": ExtResource("38_umvv3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_73riw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_e3h3h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_r631i")
+}],
+"loop": true,
+"name": &"滑行",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": ExtResource("38_474k1")
 }, {
 "duration": 1.0,
@@ -222,6 +256,60 @@ animations = [{
 }],
 "loop": false,
 "name": &"跳起",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("42_muu6k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_6wc7x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_oykd7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_12sxl")
+}],
+"loop": false,
+"name": &"跳跃攻击1",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("46_45tcc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_4q1hm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_dwgtn")
+}],
+"loop": false,
+"name": &"跳跃攻击2",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("49_wbbk7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_xhtcd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_452oj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_m3xgi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_dwit1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_ebo57")
+}],
+"loop": false,
+"name": &"跳跃攻击3",
 "speed": 10.0
 }, {
 "frames": [{
@@ -262,8 +350,8 @@ size = Vector2(13, 26)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_5stfo")
-animation = &"闲置"
-frame_progress = 0.929308
+animation = &"跳跃攻击3"
+frame = 1
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
@@ -307,3 +395,8 @@ visible = false
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="attack_check/a3"]
 polygon = PackedVector2Array(-4, -5, 14, -1, 26, 4, 25, 9, 17, 14, -1, 16, -14, 16, -23, 10, -15, 4, -11, 11, 3, 11, 15, 7, 15, 3)
+
+[node name="air_attack_3_floor_check" type="RayCast2D" parent="."]
+target_position = Vector2(0, 60)
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="FSM/attack" method="_on_animated_sprite_2d_animation_finished"]
